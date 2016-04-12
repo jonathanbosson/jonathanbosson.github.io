@@ -1,0 +1,6 @@
+#Data files
+data/
+
+.DS_Store
+# RC files
+*.rc
