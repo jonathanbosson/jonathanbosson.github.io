@@ -10,4 +10,4 @@ DooVR won the C Awards 2015 in category Creative Technical Application as well a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXwzPF6bLn8" frameborder="0" allowfullscreen></iframe>
 
-The report can be read [here](/reports/DooVR_Rapport.pdf), as of now there is no English version so I wish you luck to understand it. The source is available on [github](https://github.com/Grahnen92/DooVR).
+The report can be read [here](/reports/DooVR_Rapport.pdf), as of now there is no English version so I wish you luck on understanding it. The source is available on [github](https://github.com/Grahnen92/DooVR).
