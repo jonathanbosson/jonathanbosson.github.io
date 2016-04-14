@@ -1,6 +1,4 @@
-#Data files
-data/
-
+_site
+.sass-cache
+.jekyll-metadata
 .DS_Store
-# RC files
-*.rc
