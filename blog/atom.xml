@@ -4,11 +4,11 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jonathan Bosson's Blog</title>
+ <title>Jonathan Bosson's Projects</title>
  <link href="http://jonathanbosson.github.io/blog/atom.xml" rel="self"/>
  <link href="http://jonathanbosson.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://hankquinlan.github.io/blog</id>
+ <id>http://jonathanbosson.github.io/blog</id>
  <author>
    <name>Jonathan Bosson</name>
    <email>jonathan.bosson@gmail.com</email>
