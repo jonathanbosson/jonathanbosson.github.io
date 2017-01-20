@@ -7,7 +7,7 @@ date: 2016-11-03
 This project done within an AI for Interactive Media course, <em>TNM095</em>. 
 Our idea was to use a webcam and computer vision to detect where letters were written in real-time on a piece of white paper. A multilayered perceptron neural network would then classify an image chunk as a character using optical character recognition (OCR), which could then be used in an equation solver. With this solution can a user write close to any expression or equation containing known operators and the application will give an answer.
 
-<img width="300" height="180" src="/images/ocr.PNG">
+<img width="300" height="180" src="/images/ocr.png">
 
 In short, the process is divided into three parts:
 
