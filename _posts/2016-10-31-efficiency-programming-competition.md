@@ -5,7 +5,7 @@ date: 2016-10-31
 ---
 
 This autumn I signed up for a programming competition in efficiency hosted by [Consid](http://www.consid.se/).
-In Sweden a car's license plate has three letters followed by three numbers, such as `ABC123`. The task was to as quickly as possible answer whether or not a duplicate license plate existed in a given textfile of 6 million entries. I didn't win managed to get pretty close with completion time within 50ms. My solution can be found [here](https://github.com/jonathanbosson/Consid-Find-Regnr), but I wanted to explain my thoughtprocess a bit here.
+In Sweden a car's license plate has three letters followed by three numbers, such as `ABC123`. The task was to as quickly as possible answer whether or not a duplicate license plate existed in a given textfile of 6 million entries. I didn't win, but managed to get pretty close with completion time within 50ms. My solution can be found [here](https://github.com/jonathanbosson/Consid-Find-Regnr), but I wanted to explain my thoughtprocess a bit here.
 
 1. In order to scale the project with multiple cores I wanted to include parallel processing. However, reading and writing to/from a file is done sequentially. So the first thing that is done is to open the given textfile and save it to a dynamically allocated buffer. By doing this can I quickly access different parts (or license plates) from the textfiles in parallel without compromising thread safety. 
 
